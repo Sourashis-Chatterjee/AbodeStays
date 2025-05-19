@@ -81,9 +81,9 @@ const sessionOptions = {
 
 
 
-// app.get('/', (req, res) => {
-//     res.send('Hello World!');
-// });
+app.get('/', (req, res) => {
+    res.redirect('/listings'); // Redirect to the listings page
+});
 
 //session middleware
 app.use(session(sessionOptions)); // Use express-session middleware for session management
