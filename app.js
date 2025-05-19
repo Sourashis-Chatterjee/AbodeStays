@@ -81,9 +81,9 @@ const sessionOptions = {
 
 
 
-app.get('/', (req, res) => {
-    res.send('Hello World!');
-});
+// app.get('/', (req, res) => {
+//     res.send('Hello World!');
+// });
 
 //session middleware
 app.use(session(sessionOptions)); // Use express-session middleware for session management
