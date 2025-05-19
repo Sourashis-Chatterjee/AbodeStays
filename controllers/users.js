@@ -19,7 +19,7 @@ module.exports.signup = async (req, res) => {
         if (err) {
             return next(err); // Handle login error
         }
-         req.flash('success', 'Welcome to Wanderlust!'); // Set a success message
+         req.flash('success', 'Welcome to AbodeStays!'); // Set a success message
     res.redirect("/listings"); // Redirect to the listings page
     });
    
