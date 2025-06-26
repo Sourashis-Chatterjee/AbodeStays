@@ -15,8 +15,6 @@
 
 ## 🧑‍🏫 Learnings
 
-* Full-stack development using MERN
-
 * RESTful API design
 
 * User authentication with JWT
